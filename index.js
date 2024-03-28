@@ -13,11 +13,9 @@ value.forEach((params) => {
     let number = this.innerHTML
     massage.innerHTML =`you selected  ${number} out of  5 `
     button.onclick = (e) => {
-      e.target.style.backgroundColor="blue"
       New.style.display = "block"
       old.style.display = "none"
     }
   };
 });
-console.log(massage);
 
